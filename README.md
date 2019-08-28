@@ -1,4 +1,4 @@
-# lambda-net
+# Lambda-net
 
 
 
@@ -20,7 +20,7 @@ The traing and testing data used in our paper is from the paper " Sparse Recover
 
 Requirements are tensorflow, numpy, scipy.
 
-
+### Run Lambda-net
 
 
 
