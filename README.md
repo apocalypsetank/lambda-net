@@ -30,3 +30,4 @@ visualize_results.py
 ```
 
 ### 2. Reconstruction Stage
+Pass the training and testing data through the pretrained reconstruction stage model and save the output int the 'training_painting_data/' and 'testing_painting_data/' seperately.
