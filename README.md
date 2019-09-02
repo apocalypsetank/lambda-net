@@ -24,4 +24,7 @@ Train the model via
 ```
 main.py
 ```
-The results for testing scene will be saved in 'result/your model file/'
+The results for testing scene will be saved in 'result/your model file/'. If you want to visualize the results after training the model, just run
+```
+visualize_results.py
+```
