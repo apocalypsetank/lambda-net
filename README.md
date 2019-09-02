@@ -14,10 +14,10 @@ The traing and testing data used in our paper is from the paper " Sparse Recover
 
 
 ## Usage
-### Download the DeSCI repository
+### 0. Download the DeSCI repository
 
 Requirements are tensorflow, numpy, scipy.
 
-### Reconstruction Stage
+### 1. Reconstruction Stage
 
-Just run main.py.
+Train the model via
