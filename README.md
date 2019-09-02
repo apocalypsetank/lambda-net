@@ -18,8 +18,6 @@ The traing and testing data used in our paper is from the paper " Sparse Recover
 
 Requirements are tensorflow, numpy, scipy.
 
-### Run Lambda-net
+### Reconstruction Stage
 
-
-
-The code will be released soon.
+Just run main.py.
