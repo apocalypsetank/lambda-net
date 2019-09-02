@@ -18,7 +18,7 @@ The traing and testing data used in our paper is from the paper " Sparse Recover
 
 Requirements are tensorflow, numpy, scipy.
 
-### 1. Reconstruction Stage
+### 1. Run Lambda-net
 
 Train the model via
 ```
@@ -35,9 +35,4 @@ result/model file/pnsr.txt
 ```
 
 
-### 2. Reconstruction Stage
-Pass the training and testing data through the pretrained reconstruction stage model and save the output int the 'training_refine_data/' and 'testing_refine_data/' seperately. Then run the following file to train the refinement stage model.
-```
-main_refine.py
-```
 
