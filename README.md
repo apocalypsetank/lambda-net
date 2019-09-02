@@ -21,6 +21,6 @@ Requirements are tensorflow, numpy, scipy.
 ### 1. Reconstruction Stage
 
 Train the model via
-```matlab
-test_desci.m
+```
+main.py
 ```
