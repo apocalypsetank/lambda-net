@@ -24,3 +24,4 @@ Train the model via
 ```
 main.py
 ```
+The results for testing scene will be saved in 'result/your model file/'
