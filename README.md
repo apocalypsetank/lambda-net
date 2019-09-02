@@ -24,10 +24,16 @@ Train the model via
 ```
 main.py
 ```
-The results for testing scene will be saved in 'result/your model file/'. If you want to visualize the results after training the model, just run
+The results for testing scene will be saved in 'result/model file/'. If you want to visualize the results after training the model, just run
 ```
 visualize_results.py
 ```
+
+And the PSNR value for the training and testing data can be found in
+```
+result/model file/pnsr.txt
+```
+
 
 ### 2. Reconstruction Stage
 Pass the training and testing data through the pretrained reconstruction stage model and save the output int the 'training_refine_data/' and 'testing_refine_data/' seperately. Then run the following file to train the refinement stage model.
