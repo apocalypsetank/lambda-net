@@ -46,3 +46,20 @@ def shuffle_crop(original_data,batch_size):
 
 
 
+def load_data_painting(nrf_pairs=10000):
+    index = np.random.choice(96000, nrf_pairs)
+    train_input=np.zeros((nrf_pairs,256,256,1))
+    train_truth=np.zeros((nrf_pairs,256,256,1))
+    k=0
+    for i in index:
+        path = 'training_refine_data/truth_%d.mat' % i
+        img = sio.loadmat(path)['data']
+        train_truth[k,:,:,0]=img
+        path = 'training_refine_data/result_from_unet1_%d.mat' % i
+        img = sio.loadmat(path)['data']
+        train_input[k,:,:,0]=img
+        k+=1
+    return train_truth,train_input
+
+
+
