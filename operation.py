@@ -40,7 +40,7 @@ def shuffle_crop(original_data,batch_size):
         y_index = np.random.randint(0, w - 256)
         img=original_data[index[i]][x_index:x_index + 256, y_index:y_index + 256, :]
         new_data.append(img)
-    new_data=np.array(new_data)#(30,100,240,31)
+    new_data=np.array(new_data)
 
     return new_data
 
